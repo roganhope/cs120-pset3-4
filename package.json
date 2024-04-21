@@ -1,4 +1,9 @@
 {
+  "name": "helloapp",
+  "scripts": {
+    "start": "node hello_server.js"
+  },
+
   "dependencies": {
     "csv-parser": "^3.0.0",
     "mongodb": "4.0"
