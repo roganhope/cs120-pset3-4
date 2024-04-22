@@ -36,7 +36,7 @@ app.post('/process', async function(req, res) {
 });
 
 
-port = process.env.PORT || 80
+port = process.env.PORT || 3000
 
 app.listen(port, function(error){ 
     if(error) throw error 
