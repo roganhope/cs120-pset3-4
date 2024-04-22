@@ -22,6 +22,7 @@ app.get('/', function(req, res){
 
 
 app.post('/process', async function(req, res) {
+    console.log("i am being reached");
     const info = req.body.the_name;
     try {
         const processedInfo = await controller.processInfo(info);
