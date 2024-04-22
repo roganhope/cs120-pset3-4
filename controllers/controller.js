@@ -21,7 +21,6 @@ const processInfo = (input) => {
 const getDataByZip = async (input) => {
     console.log('Getting data by zip');
     const zip = parseInt(input);
-    
 
     return new Promise((resolve, reject) => {
         MongoClient.connect(url, async (err, db) => {
