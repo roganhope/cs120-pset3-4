@@ -1,11 +1,14 @@
 {
   "name": "helloapp",
   "scripts": {
-    "start": "node hello_server.js"
+    "start": "node app.js"
   },
-
   "dependencies": {
     "csv-parser": "^3.0.0",
-    "mongodb": "4.0"
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "materialize-css": "^1.0.0",
+    "mongodb": "4.0",
+    "serve-favicon": "^2.5.0"
   }
 }

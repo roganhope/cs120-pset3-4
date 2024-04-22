@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<%- include('header') %>
+
+    <body>
+        <div class="container">
+             <div class="home">
+                <h1>Home</h1>
+                <form method='post' action='http://localhost:8080/process'>
+                    Enter a zip code or a place and look for results. <input type='text' name='the_name'><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </body>
+
+    <%- include('footer') %>
+
+</html>
