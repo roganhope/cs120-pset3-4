@@ -1,0 +1,73 @@
+(base) hoperogan@Hopes-MBP cs120-pset3-4 % node read_csv.js
+NEW PLACE
+adding Brocktonwith zip 02301
+EXISTING PLACE 
+adding 02302 to Brockton
+EXISTING PLACE 
+adding 02303 to Brockton
+EXISTING PLACE 
+adding 02304 to Brockton
+EXISTING PLACE 
+adding 02305 to Brockton
+NEW PLACE
+adding Cambridgewith zip 02114
+EXISTING PLACE 
+adding 02134 to Cambridge
+EXISTING PLACE 
+adding 02140 to Cambridge
+EXISTING PLACE 
+adding 02141 to Cambridge
+EXISTING PLACE 
+adding 02142 to Cambridge
+NEW PLACE
+adding Medfordwith zip 02145
+EXISTING PLACE 
+adding 02153 to Medford
+EXISTING PLACE 
+adding 02155 to Medford
+EXISTING PLACE 
+adding 02156 to Medford
+NEW PLACE
+adding Somervillewith zip 02129
+EXISTING PLACE 
+adding 02141 to Somerville
+EXISTING PLACE 
+adding 02143 to Somerville
+EXISTING PLACE 
+adding 02144 to Somerville
+EXISTING PLACE 
+adding 02145 to Somerville
+NEW PLACE
+adding Burlingtonwith zip 01803
+NEW PLACE
+adding Readingwith zip 01867
+NEW PLACE
+adding Miltonwith zip 02186
+NEW PLACE
+adding Westwoodwith zip 02090
+NEW PLACE
+adding Norwoodwith zip 02062
+NEW PLACE
+adding Hullwith zip 02045
+No more rows!
+[
+  {
+    place: 'Brockton',
+    zips: [ '02301', '02302', '02303', '02304', '02305' ]
+  },
+  {
+    place: 'Cambridge',
+    zips: [ '02114', '02134', '02140', '02141', '02142' ]
+  },
+  { place: 'Medford', zips: [ '02145', '02153', '02155', '02156' ] },
+  {
+    place: 'Somerville',
+    zips: [ '02129', '02141', '02143', '02144', '02145' ]
+  },
+  { place: 'Burlington', zips: [ '01803' ] },
+  { place: 'Reading', zips: [ '01867' ] },
+  { place: 'Milton', zips: [ '02186' ] },
+  { place: 'Westwood', zips: [ '02090' ] },
+  { place: 'Norwood', zips: [ '02062' ] },
+  { place: 'Hull', zips: [ '02045' ] }
+]

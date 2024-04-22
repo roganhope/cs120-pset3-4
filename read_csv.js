@@ -20,9 +20,10 @@ inputStream
         // if it already exists jsut add the zip
         let alreadyExists = json.find(item => item.place === place);
         if (alreadyExists) {
-            console.log("already exists ")
+            console.log("EXISTING PLACE ")
             // make sure zip isn't there (that way I can run this multiple times with diplicates)
             if (!alreadyExists.zips.includes(zip)) {
+                console.log("adding " + zip + " to " + place)
                 alreadyExists.zips.push(zip);
             }
             
@@ -32,7 +33,8 @@ inputStream
         else {
             // else add a new object 
             // upload a new location
-            console.log("new place")
+            console.log("NEW PLACE")
+            console.log("adding " + place + "with zip " + zip );
             let newplace = {
                 place: place,
                 zips: [zip]

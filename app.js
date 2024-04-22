@@ -35,7 +35,10 @@ app.post('/process', async function(req, res) {
     }
 });
 
-app.listen(8080, function(error){ 
+
+port = process.env.PORT || 80
+
+app.listen(port, function(error){ 
     if(error) throw error 
     console.log("Server created Successfully") 
 }) 
